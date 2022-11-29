@@ -8,21 +8,46 @@
 
 >此專案為作者本人於2022/6/28至2022/9/13期間，參加職訓局所舉辦的『Java程式暨資料庫開發設計培訓班』之結訓專題『美食地圖 ver 1.0』為基底，以Spring系列框架重構而成。
 
-## 使用與操作
+#### Repos:
+- Android app: https://github.com/ptttkboy/HFU-Java-Project-Refactor-Andorid.git
+- Spring Boot Server + 後台管理系統: https://github.com/ptttkboy/HFU-Java-Project-Refactor-Server.git 
+
+
+
+## 介面與功能
 
 #### Android app：
 - 瀏覽熱門餐廳資訊
 - 註冊及登入會員
 - 搜尋餐廳（需註冊會員）
 
+<br>
+<div style="display: flex; justify-content: space-around">
+  <img src="https://i.imgur.com/qaVma6M.png" alt="drawing" width="200"/>
+  <img src="https://i.imgur.com/BFHArNp.png" alt="drawing" width="200"/>
+  <img src="https://i.imgur.com/4DnTXEV.png" alt="drawing" width="200"/>
+</div>
+<p style="font-style: italic; text-align: center">Figure.1 Android app介面 - 首頁、搜尋、餐廳資訊</p>
+<br>
+
 #### 後台管理系統：
 - 上架餐廳
 - 管理餐廳
 - 管理會員
 
+<br>
+<img src="https://i.imgur.com/TXBVrzW.png" alt="drawing"/>
+<p style="font-style: italic; text-align: center">Figure.2 後台管理系統介面 - 餐廳列表</p>
+<br>
+<img src="https://i.imgur.com/qP6zFYb.png" alt="drawing"/>
+<p style="font-style: italic; text-align: center">Figure.3 後台管理系統介面 - 會員管理列表</p>
+<br>
+
 ## 技術與特色
 
+
 ![架構圖](https://i.imgur.com/IVqtmKc.png)
+<p style="font-style: italic; text-align: center">Figure.4 專案架構圖</p>
 
 ### 以Spring框架架構的伺服器
 本專案使用Spring系列框架建構伺服器，並透過Spring boot來快速整合相關的dependencies及建立應用程式。
@@ -44,3 +69,8 @@ Android端用使用者於初次登入時使用帳號密碼登入，驗證成功�
 
 ### 資料庫的操作與連結
 本專案資料庫使用MySQL資料庫，伺服器端以ORM框架Hibernate進行物件與資料表的對映以及封裝資料操作(DML)，並在此之上透過Spring Data JPA來快速便捷地調用。
+
+
+
+
+    
